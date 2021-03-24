@@ -30,7 +30,7 @@ logo = """
  \033[1;32m|_|     \__  | \033[1;33m  \______)___/|_|_|_|  __/|_|\_)_____)
  \033[1;32m       (____/  \033[1;33m                    |_|               
  
-     \033[1;33mCreated By HTR-TECH \033[1;37m( \033[1;33mTahmid Rayat\033[1;37m )
+     \033[1;33mCreated By Ethical-404 \033[1;37m( \033[1;33mArbab-Memon\033[1;37m )
 """
  
 banner = """
@@ -65,7 +65,7 @@ if mainmenu == "1" or mainmenu == "01":
     a = compile(fileopen, 'dg', 'exec')
     m = marshal.dumps(a)
     s = repr(m)
-    b = '# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport marshal\nexec(marshal.loads(' + s + '))'
+    b = '# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : +923003023263\n\nimport marshal\nexec(marshal.loads(' + s + '))'
     d = open(c, 'w')
     d.write(b)
     d.close()
@@ -89,7 +89,7 @@ elif mainmenu == "2" or mainmenu == "02":
     print ("")
     fileopen = open(file).read()
     a = base64.b64encode(fileopen)
-    b = "# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport base64\nexec(base64.b64decode('" + a + "'))"
+    b = "# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : +923003023263\n\nimport base64\nexec(base64.b64decode('" + a + "'))"
     d = open(c, 'w')
     d.write(b)
     d.close()
@@ -115,7 +115,7 @@ elif mainmenu == "3" or mainmenu == "03":
     sa = compile(fileopen, 'dg', 'exec')
     sb = marshal.dumps(sa)
     sc = base64.b32encode(sb)
-    b = '# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport marshal,base64\nexec(marshal.loads(base64.b32decode("' + str(sc) + '")))'
+    b = '# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : +923003023263\n\nimport marshal,base64\nexec(marshal.loads(base64.b32decode("' + str(sc) + '")))'
     d = open(c, 'w')
     d.write(b)
     d.close()
@@ -140,7 +140,7 @@ elif mainmenu == "4" or mainmenu == "04":
     fileopen = open(file).read()
     sa = zlib.compress(fileopen)
     sb = base64.b64encode(sa)
-    b = '# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport zlib,base64\nexec(zlib.decompress(base64.b64decode("' + sb + '")))'
+    b = '# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : +923003023263\n\nimport zlib,base64\nexec(zlib.decompress(base64.b64decode("' + sb + '")))'
     d = open(c, 'w')
     d.write(b)
     d.close()
@@ -167,7 +167,7 @@ elif mainmenu == "5" or mainmenu == "05":
     sb = marshal.dumps(sa)
     sc = zlib.compress(sb)
     sd = base64.b64encode(sc)
-    b = '# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b64decode("' + str(sd) + '"))))'
+    b = '# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : +923003023263\n\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b64decode("' + str(sd) + '"))))'
     d = open(c, 'w')
     d.write(b)
     d.close()
@@ -194,7 +194,7 @@ elif mainmenu == "6" or mainmenu == "06":
     sb = marshal.dumps(sa)
     sc = zlib.compress(sb)
     sd = base64.b32encode(sc)
-    b = '# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b32decode("' + str(sd) + '"))))'
+    b = '# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : +923003023263\n\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b32decode("' + str(sd) + '"))))'
     d = open(c, 'w')
     d.write(b)
     d.close()
@@ -221,7 +221,7 @@ elif mainmenu == "7" or mainmenu == "07":
     sb = marshal.dumps(sa)
     sc = zlib.compress(sb)
     sd = base64.b16encode(sc)
-    b = '# Obfuscated by Py Compile\n# Created by HTR-TECH (https://github.com/htr-tech)\n# Instagram : @tahmid.rayat\n\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b16decode("' + str(sd) + '"))))'
+    b = '# Obfuscated by Py Compile\n# Created by Ethical-404 (https://github.com/Ethical-404)\n# Contact : @+923003023263\n\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b16decode("' + str(sd) + '"))))'
     d = open(c, 'w')
     d.write(b)
     d.close()
