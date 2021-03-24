@@ -1,4 +1,4 @@
-original author : https://github.com/LOoLzeC
+#Seceration mwssage or commond of python coverted into codation of marshal zlib baee 64 32
 # original tools  : https://pastebin.com/z4TtgLiU
 # changing the name of the maker will not make you a great person
 import os
